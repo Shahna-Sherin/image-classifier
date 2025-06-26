@@ -1,37 +1,35 @@
 # 🌸 Flower Image Classifier Web App
 
-This is a beginner-friendly image classification app using TensorFlow and Gradio. It can tell whether an uploaded flower image is Daisy, Dandelion, Jasmine, etc.
+This is a beginner-friendly image classification app using **TensorFlow/Keras** and **Gradio**. It predicts flower types such as **Daisy**, **Dandelion**, and **Jasmine** from uploaded images.
 
 ---
 
-## 📂 Files
+## 🌐 Try the App Online
 
-- `app.py`: Code that runs the app.
-- `requirements.txt`: Libraries you need to install.
-- `README.md`: This file.
-- `image_classifier_model.keras`: The model file (download separately).
+You can test this app live in your browser with no installation required:
+
+🔗 **[Launch on Hugging Face](https://shahna09-flower-classifier.hf.space)**
 
 ---
 
-## 📥 Download the Model
+## 📥 Download the Model File
 
-The model file is too big for GitHub.  
-Download it from this Google Drive link:
+This app uses a trained model file, which is over 25MB and cannot be hosted directly on GitHub or Hugging Face.
 
-👉 https://drive.google.com/file/d/1J7p4itmKHHYY05tZ0KZHKpSoFvSE8J6E/view?usp=drive_link
+Please download it from Google Drive:
+
+🔗 **[Download Model File (Google Drive)](https://drive.google.com/file/d/1J7p4itmKHHYY05tZ0KZHKpSoFvSE8J6E/view?usp=drive_link)**
 
 After downloading:
-- Rename it to `image_classifier_model.keras`
-- Put it in the same folder as `app.py`
+- Rename it to: `image_classifier_model.keras`
+- Place it in the same folder as `app.py`
 
 ---
 
-## ▶️ Run the App
+## 💻 Run Locally (Optional)
 
-1. Open Terminal or Command Prompt.
-2. Go to the folder where you saved the files.
-3. Run these commands:
+If you'd like to run the app on your own computer:
 
+### Step 1: Install Requirements
 ```bash
 pip install -r requirements.txt
-python app.py
